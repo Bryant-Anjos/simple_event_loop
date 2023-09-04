@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run src/index.ts"
+  },
+  "imports": {
+    "assert": "https://deno.land/std@0.201.0/assert/mod.ts",
+    "@/": "./src/"
+  }
+}
